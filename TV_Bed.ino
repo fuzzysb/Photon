@@ -11,8 +11,8 @@ void setup()
   pinMode(pinTVUP  , OUTPUT);
   pinMode(pinTVDOWN, OUTPUT);
 
-  Particle.function("UP"  , startTVUp); 
-  Particle.function("DOWN", startTVDown);
+  Particle.function("startTVUp"  , startTVUp); 
+  Particle.function("startTVDown", startTVDown);
 }
 
 void loop()
